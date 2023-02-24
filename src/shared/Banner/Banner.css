@@ -1,0 +1,25 @@
+.all_banner_title {
+    font: 500 16px/25px "Poppins", sans-serif;
+    color: rgba(41, 41, 41, 0.8);
+    text-align: left;
+  }
+  .breadcrumb h3 {
+    font: 700 35px/40px "Poppins", sans-serif;
+    color: var(--color);
+  }
+  .banner_art{
+    width: 100%;
+    padding-bottom: 3rem;
+  }
+  
+  
+  @media (max-width:580px){
+    .banner_art{
+      padding-bottom: 0;
+
+    }
+    .breadcrumb h3{
+      font:700 22px/30px "Poppins", sans-serif
+    }
+    
+  }

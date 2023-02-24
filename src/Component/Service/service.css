@@ -1,0 +1,71 @@
+.service_panel_wrapper {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.service_panel_wrapper ul li {
+  list-style: inside;
+}
+.service_panel_wrapper ul li::marker {
+  color: rgba(36, 36, 37, 0.702);
+}
+.service_panel_wrapper h2 {
+  font: 700 30px/40px "Poppins", sans-serif;
+}
+.service_panel_wrapper span {
+  color: rgba(36, 36, 37, 0.702);
+  margin: 0;
+  font: 500 16px/28px "Poppins", sans-serif;
+}
+
+.service_panel_image {
+  width: 100%;
+
+}
+.panel_btn_container {
+  color: white;
+  width: 50%;
+  margin-top: 1rem;
+  padding-top: 0;
+}
+.margin{
+  padding: 4rem 0;
+}
+.service_art {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+@media (max-width:980px ){
+  .service_panel_wrapper{
+    padding: 0;
+  }
+  .service_panel_wrapper h2{
+    font: 700 25px/40px "Poppins", sans-serif;
+  }
+  .aboutwork_title{
+    padding-top: 0;
+  }
+
+}
+
+
+@media (max-width:580px ){
+  .service_panel_wrapper{
+    padding: 1rem;
+  }
+  .pages_banner .breadcrumb{
+    padding-bottom: .5rem;
+    justify-content: center;
+  }
+  .service_panel_wrapper h2{
+    font: 700 20px/30px "Poppins", sans-serif;
+  }
+  .service_art{
+    padding-top: .5rem;
+  }
+  .panel_btn_container{
+    width: 60%;
+  }
+}

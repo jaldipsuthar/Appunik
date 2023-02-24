@@ -1,0 +1,81 @@
+/* <--- career banner start ---> */
+/* .career_banner {
+  padding: 200px 0px;
+  background:linear-gradient(360deg, rgba(59, 59, 59, 0.2), rgba(255, 255, 255, 0.6)), url(../../images/background/apply-now-form-information-job-concept.jpg);
+  background-size: cover;
+   background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3))
+} */
+
+.career_banner  .title h2{
+  color: var(--color);
+}
+/* <--- career banner end --->  */
+
+/* <--- career opning start ---> */
+
+.opning_topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.opning_topbar h4 {
+  font: 600 24px/1 "Poppins", sans-serif !important;
+  color: var(--color) !important;
+}
+.career_image {
+  width: 100%;
+}
+.opning_topbar .opening_position_wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.opning_topbar .opening_position_wrapper .opning_position {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.opning_topbar .opening_position_wrapper .opning_position svg {
+  font-size: 1.2rem;
+  color: var(--color);
+}
+.opning_position_info p {
+  padding-bottom: 0;
+}
+.career_area .first_p {
+  font: 300 18px/30px "Poppins", sans-serif;
+}
+.career_area_appy-wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.career_area .career_area_appy-wrapper  button{
+  border: none;
+  margin: 0.8rem 0 0.8rem 0;
+}
+
+.height{
+  /* height: 60vh; */
+  padding: 2rem 0;
+}
+
+.alignment .career_area_appy-wrapper{
+  display: flex;
+  justify-content: flex-start;
+}
+/* <--- career opning end ---> */
+
+@media (max-width>=2000px){
+  
+}
+
+@media ( max-width:580px) {
+  
+  .career_area_appy-wrapper{
+    justify-content: center;
+  }
+  .opning_topbar{
+    flex-direction:column ;
+  }
+}

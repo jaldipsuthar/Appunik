@@ -1,0 +1,25 @@
+.info_container{
+    min-height: 25rem !important;
+    border-radius: 10px !important;
+    background-color: white !important;
+    box-shadow: 0px 0px 30px 0px rgb(186 184 191 / 35%) !important;
+    
+}
+
+.form_container{
+    padding: 3rem 0;
+    text-align: center;
+}
+.form_container h2{
+    font: 700 30px/40px "Poppins", sans-serif;
+    margin: 1.8rem 0;
+}
+
+.MuiInputBase-formControl{
+    text-align: left;
+}
+/* .css-1v3hyuc-MuiFormControl-root{
+    margin: 8px 0 !important;
+} */
+
+

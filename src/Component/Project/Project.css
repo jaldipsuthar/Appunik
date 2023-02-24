@@ -1,0 +1,66 @@
+.projectbanner_title {
+  font: 500 16px/25px "Poppins", sans-serif;
+  color: rgba(41, 41, 41, 0.8);
+  text-align: left;
+}
+.breadcrumb h2 {
+  font: 700 56px/70px "Poppins", sans-serif;
+  color: var(--color);
+}
+.portofolio_art{
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+/* <--- portfolio  slider start ---> */
+.row_spacing {
+  padding: 6rem 0 4rem 0;
+}
+.project-container-border {
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.project-info_wrapper {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.project-info_wrapper h2 {
+  /* color: var(--color); */
+  font: 700 35px/55px "Poppins", sans-serif;
+}
+.project-info_wrapper h2::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  z-index: -1;
+  border: 3px solid #f2b4ff;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  left: 230px;
+  animation: float-bob-x infinite 15s linear;
+
+}
+.project-info_wrapper p {
+  color: rgba(36, 36, 37, 0.702);
+  margin: 0;
+  font: 500 16px/28px "Poppins", sans-serif;
+}
+.project-info_wrapper .style_1{
+  top: 0;
+  left: 60%;
+}
+
+/* <--- portfolio  slider end ---> */
+
+
+
+
+@media (max-width:580px){
+  .projectbanner_title{
+    text-align: center;
+  }
+}
