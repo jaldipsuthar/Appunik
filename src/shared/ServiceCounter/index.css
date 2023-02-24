@@ -1,0 +1,54 @@
+/* <--- mobile app Development count start---> */
+.service_devlopment_container{
+    padding-bottom: 3rem;
+    overflow: hidden;
+}
+.app_devlopment_title {
+  font: 700 35px/55px "Poppins", sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.app_count_wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 16px 30px 0px rgb(181 179 185 / 35%);
+    align-items: center;
+    padding: 3rem;
+}
+.app_count_wrapper h2{
+ padding: 1.5rem;
+ font: 700 35px/1px "Poppins", sans-serif;
+ 
+}
+.app_count_wrapper p{
+
+}
+/* <--- mobile app Development count end---> */
+
+
+/* <--- mobile app Development detail start---> */
+.app_details_wrapper{
+  text-align: center;
+}
+.app_details_wrapper_top{
+  font: 700 27px/45px "Poppins", sans-serif;
+  letter-spacing: .5em;
+}
+.app_details_wrapper_bottom{
+  font: 400 27px/45px "Poppins", sans-serif;
+
+}
+
+/* <--- mobile app Development detail end---> */
+
+
+@media (max-width:580px){
+  .app_devlopment_title{
+    width: 100%;
+    font: 700 24px/30px "Poppins", sans-serif;
+  }
+  
+}

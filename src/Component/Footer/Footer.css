@@ -1,0 +1,11 @@
+.copy_right p{
+    letter-spacing: .4em;
+    color: var(--color);
+}
+.copyright_wrapper{
+    text-align: center;
+}
+
+@media (max-width:580px) {
+    
+}
